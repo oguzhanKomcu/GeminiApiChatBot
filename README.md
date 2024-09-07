@@ -1,4 +1,4 @@
-# Gemini Chat Bot Projesi
+# Gemini Api Chat Bot Project
 
 Bu proje, Gemini API kullanarak geliştirilmiş bir chat bot uygulamasını içermektedir. Uygulama, kullanıcılarla etkileşimde bulunarak çeşitli görevleri yerine getirebilen bir chat bot sunmaktadır.
 
@@ -6,6 +6,7 @@ Bu proje, Gemini API kullanarak geliştirilmiş bir chat bot uygulamasını içe
 Google Gemini is a family of multimodal large language models (LLMs) announced by Google on December 6, 2023, the successor to LaMDA and PaLM 2. Positioned as a competitor to GPT-4, Gemini is a new generation artificial intelligence model that can understand and process content in different formats such as text, image, audio, video and coding.
 
 Google Gemini, developed by Google, is an artificial intelligence-based platform. Its main purpose is to provide more accurate and faster answers to users' search queries. This platform aims to improve user experience and take personalization in digital advertising one step further by integrating with Google's existing search and advertising services.
+Source : https://www.webtures.com/tr/blog/google-gemini-nedir-nasil-kullanilir/
 
 ## Özellikler
 
