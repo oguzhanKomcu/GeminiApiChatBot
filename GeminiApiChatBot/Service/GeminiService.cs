@@ -37,7 +37,7 @@ namespace GeminiApiChatBot.Service
         public async Task<string> GeminiApi(string question)
         {
 
-            string apiKey = "AIzaSyDuFhXvKGQA8f_5oE35QkUN0-1RvhWT1AI";
+            string apiKey = "Google-Api-Key";
             string url = $"https://generativelanguage.googleapis.com/v1/models/gemini-pro:generateContent?key={apiKey}";
             var requestData = new RequestData
             {
