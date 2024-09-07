@@ -15,7 +15,7 @@ namespace GeminiApiChatBot.Service
         {
             _geminiClient = new GeminiClient(new GoogleGeminiConfig()
             {
-                ApiKey = "AIzaSyDuFhXvKGQA8f_5oE35QkUN0-1RvhWT1AI"
+                ApiKey = "Google-Api-Key"
             });
             _httpClient = httpClient;
         }

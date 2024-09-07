@@ -8,7 +8,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 builder.Services.AddGeminiClient(config =>
 {
-    config.ApiKey = "AIzaSyDuFhXvKGQA8f_5oE35QkUN0-1RvhWT1AI";
+    config.ApiKey = "Google-Api-Key";
 });
 builder.Services.AddHttpClient();
 builder.Services.AddScoped<IGeminiService, GeminiService>();
