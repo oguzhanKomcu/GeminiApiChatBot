@@ -24,7 +24,7 @@ Source : https://github.com/google-gemini/cookbook
 
 ## Project Usage
 
-In this project, I used both the REST API request that I created and the SDK developed by [Guilherme Martin](https://github.com/gsilvamartin). You can find detailed information about the Gemini .NET SDK [here](https://github.com/gsilvamartin/dotnet-gemini-sdk).
+In this project, I used both the REST API request that I created and the SDK developed by [Guilherme Martin](https://github.com/gsilvamartin). You can find detailed information about the Gemini .NET SDK [here](https://github.com/gsilvamartin/dotnet-gemini-sdk). Both uses yield the same result.
 
 1. **Set API Keys :**
     `GeminiService.cs, program.cs` Add your Gemini API key in the file :
