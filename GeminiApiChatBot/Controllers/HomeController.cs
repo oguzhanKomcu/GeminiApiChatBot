@@ -27,7 +27,7 @@ namespace GeminiApiChatBot.Controllers
         {
             if (question != null  )
             {
-                var prompt = "I want you to edit the Turkish sentence I will give you in accordance with the rules of Turkish grammar and spelling, without compromising the integrity of the meaning. Pay attention to the length and structure of the sentence. If there is a specific grammar rule (e.g. tense harmony, punctuation marks), I want you to focus on that. Your answer must be in Turkish.Here is the Turkish sentence " + "'" + question + "'";
+                var prompt = $"You are a car buying assistant who helps me choose the best car for my needs. I will provide you with details about a particular car, including the make, model, year of production, fuel type, engine power, mileage, price and other important features. Based on this information, analyze and evaluate the price-performance ratio, market value, fuel efficiency, maintenance costs and long-term benefits. Give me a detailed recommendation on whether I should buy it or not. If there are better alternatives, suggest them as well. Your answer should be logical, analytical and data-driven. Your answer should be accurate and fluent in Turkish. Here are the features of the car I like :" + $" '{question}'";
                 var response = await _geminiService.GeminiApi(prompt);
                 //var response = await _geminiService.GeminiSdk(prompt);//
                 return Json(response);
