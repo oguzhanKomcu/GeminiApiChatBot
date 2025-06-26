@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: gemini-api-chatbot
+    runtime: docker
+    repo: https://github.com/oguzhanKomcu/GeminiApiChatBot
+    branch: master
+    region: frankfurt
